@@ -35,3 +35,17 @@
 //     }
 //   }
 // }
+
+
+
+//Uncomment if you want to remove the error in VS Code for the custom command
+/* export { };
+
+declare global {
+    namespace Cypress {
+        interface Chainable {
+            clickOnTeamMemberLink(team_member_name: string): Chainable<void>
+
+        }
+    }
+} */
