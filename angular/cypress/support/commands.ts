@@ -36,10 +36,7 @@
 //   }
 // }
 
-
-
-//Uncomment if you want to remove the error in VS Code for the custom command
-/* export { };
+export { };
 
 declare global {
     namespace Cypress {
@@ -48,4 +45,4 @@ declare global {
 
         }
     }
-} */
+} 
